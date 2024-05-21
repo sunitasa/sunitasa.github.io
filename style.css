@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#mainnav{
+  background-color:#194169;
+
+}
+#mainnav .navbar-nav > li.nav-item > a.nav-link.active {
+  color: #fff;
+  background: #1abc9c;
+}
+/* #mainnav :hover{
+  color: #fff;
+    background: #1abc9c;
+} 
+*/
+li.nav-item a {
+  color: #FFFFFF;
+}
+li.nav-item a:hover {
+  color: #66ac9e;
+}
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+h1, .h1 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+@media (min-width: 1200px) {
+  h1, .h1 {
+    font-size: 2.5rem;
+  }}
+  .lead{
+    text-align: start;
+  }
+  .progress-persentage{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.progress{
+  height: 8px;
+  width: auto;
+  border-radius: 6px;
+}
+  .divider-custom-icon::after{
+    display: inline-block;
+    content: "";
+    width: 90px;
+    height:3px;
+    background: rgb(13, 13, 13);
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 5px;
+}
+.divider-custom-icon::before{
+    display: inline-block;
+    content: "";
+    width: 90px;
+    height:3px;
+    background: rgb(29, 26, 26);
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 5px;
+}
+.divider-custom-icon1::after{
+  display: inline-block;
+  content: "";
+  width: 90px;
+  height:3px;
+  background: white;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 5px;
+}
+.divider-custom-icon1::before{
+  display: inline-block;
+  content: "";
+  width: 90px;
+  height:3px;
+  background: white;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 5px;
+}
+.portfolio-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.portfolio-item-caption-content {
+  visibility: hidden;
+  background-color: rgba(26, 188, 156, 0.7);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-item:hover .portfolio-item-caption-content {
+  visibility: visible;
+}
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #194169;
+  color: #fff;
+}
+
+.copyright {
+  background-color: #203142;
+}
